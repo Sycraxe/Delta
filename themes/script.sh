@@ -30,7 +30,6 @@ fi
 
 if [ $(which inkscape | wc -l) -ge 1 ]; then
   inkscape ./generated_icons.svg -o $dir/apps/calculation_icon.png --export-area=0:0:55:56
-  inkscape ./generated_icons.svg -o $dir/apps/rpn_icon.png --export-area=80:0:135:56
   inkscape ./generated_icons.svg -o $dir/apps/graph_icon.png --export-area=160:0:215:56
   inkscape ./generated_icons.svg -o $dir/apps/code_icon.png --export-area=0:87:55:143
   inkscape ./generated_icons.svg -o $dir/apps/stat_icon.png --export-area=80:87:135:143
